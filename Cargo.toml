@@ -1,0 +1,13 @@
+[package]
+name = "marc-discord-bot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = { version = "0.10.9", features = ["collector"] }
+tokio = { version = "1.15.0", features = ["full"] }
+colored = "*"
+lazy_static = "1.4.0"
+serenity_utils = "0.6.1"
